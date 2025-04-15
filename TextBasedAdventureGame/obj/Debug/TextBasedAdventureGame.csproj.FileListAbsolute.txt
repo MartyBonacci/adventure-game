@@ -1,0 +1,41 @@
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\bin\Debug\TextBasedAdventureGame.exe.config
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\bin\Debug\TextBasedAdventureGame.exe
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\bin\Debug\TextBasedAdventureGame.pdb
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TravelWindow.baml
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TravelWindow.g.cs
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\App.g.cs
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TextBasedAdventureGame_MarkupCompile.cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TextBasedAdventureGame.g.resources
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TextBasedAdventureGame.Properties.Resources.resources
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TextBasedAdventureGame.csproj.GenerateResource.Cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TextBasedAdventureGame.exe
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TextBasedAdventureGame.pdb
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.exe.config
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.exe
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.pdb
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.csprojResolveAssemblyReference.cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\TravelWindow.baml
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\TravelWindow.g.cs
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\App.g.cs
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame_MarkupCompile.cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.g.resources
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.Properties.Resources.resources
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.csproj.GenerateResource.Cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.exe
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.pdb
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8CowboysAndAliens - Copy\TextBasedAdventureGame\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.exe.config
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8CowboysAndAliens - Copy\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.exe
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8CowboysAndAliens - Copy\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.pdb
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.exe.config
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.exe
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.pdb
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.exe
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.pdb
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.csprojResolveAssemblyReference.cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TravelWindow.baml
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TravelWindow.g.cs
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\App.g.cs
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame_MarkupCompile.cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.g.resources
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.Properties.Resources.resources
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.csproj.GenerateResource.Cache

@@ -1,0 +1,13 @@
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\bin\Debug\CowboysAndAliens.exe.config
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\bin\Debug\CowboysAndAliens.exe
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\bin\Debug\CowboysAndAliens.pdb
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\CowboysAndAliens.csprojResolveAssemblyReference.cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\App.g.cs
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\CowboysAndAliens_MarkupCompile.cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\CowboysAndAliens.g.resources
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\CowboysAndAliens.Properties.Resources.resources
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\CowboysAndAliens.csproj.GenerateResource.Cache
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\CowboysAndAliens.exe
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\CowboysAndAliens.pdb
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TravelWindow.baml
+C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\GroupProgram1GameMap\CowboysAndAliensMap\CowboysAndAliens\obj\Debug\TravelWindow.g.cs
