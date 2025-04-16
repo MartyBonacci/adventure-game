@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Release\
 TextBasedAdventureGame
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\App.xaml
 1627577802
 
