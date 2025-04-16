@@ -24,7 +24,7 @@ You have just joined a company called Retro-Games R Us. RGRU tries to recapture 
 To help get you started you have been provided a starter file that already has capability to create a hard-coded map that the player can explore. The programmer that completed the work so far has left RGRU to become a community college instructor. If you have questions about their code maybe you can find their email address in the comments in the code…
 
 ## The following classes have been already created for you:
-![Map, MapLocation and Travel Option Classes](map-location-travel-option-classes.png)
+![Map, MapLocation and Travel Option Classes](./documentation/map-location-travel-option-classes.png)
 
 ## Existing MapLocation Class
 The MapLocation class has a Description property which describes the location setting this is what will be displayed in the Description TextBox. MapLocation also has a TravelOptions property which is a List of TravelOption objects. MapLocation also has a ToString() method that just returns the Description property. 
@@ -52,7 +52,7 @@ Map[0].TravelOptions.Add(new TravelOption("A town is to the west of you.",Map[1]
 
 ## Existing TravelWindow
 The TravelWindow has a text box to show a description of the player’s location and a list box to show travel options. It instantiates a new Map object in the TravelWindow() constructor. It then displays the current player location and travel options. The ListBox’s MouseDoubleClick event changes the player location: the code changes the player’s location to the selected travel options MapLocation then just assigns the ListBox’s ItemsSource property to the new Player Location’s TravelOptions list.
-![Travel Window](travel-window.png)
+![Travel Window](./documentation/travel-window.png)
 
 ## New Code For You to Implement:
 ### User Stories to Implement:
@@ -65,7 +65,7 @@ Your task is to add more capability to this game. Your dev admin asks you to imp
 - As a player I would like to be able to search game objects to see if they contain other game objects.
 
 ## You will write the following classes:
-![Game Object, IPortable, InventoryItem, IHidingPlace, HidingPlace and PortableHidingPlace Classes](more-classes.png)]
+![Game Object, IPortable, InventoryItem, IHidingPlace, HidingPlace and PortableHidingPlace Classes](./documentation/more-classes.png)]
 
 ### Game Object:
 This is the base class for all objects in the game. All items must have a Description. All items contained in a MapLocation’s items list or in the player inventory should be of this class or inherit from this class. Note that not all GameObjects can be taken into the user’s inventory.
@@ -86,14 +86,14 @@ This class inherits from GameObject and implements IHidingPlace. HiddingPlace’s 
 This class inherits from GameObject and implements both IHidingPlace and IPortable. 
 
 ### Player:
-![Player Class](player-class.png)]
+![Player Class](./documentation/player-class.png)]
 The player class takes some of the functionality built into the existing form and moves it into a class. The player class has an Inventory property has a List of GameObjects. The class has a MaxInventory property. The sum of the sizes of the elements in inventory should never exceed this property. The player has a Location property which points to a MapLocation. 
 
 The player’s constructor takes one parameter, a MapLocation which is used to set the player’s starting location. The constructor should set starting values for all remaining properties.
 
 ### Map, MapLocation and TravelOptions Classes:
 These classes are the same as the ones you created in the previous assignment, slightly modified.  
-![Map, MapLocation and TravelOption Classes](modified-classes.png)
+![Map, MapLocation and TravelOption Classes](./documentation/modified-classes.png)
 
 Be sure to change the namespace if you move them to the new project.  Change the MapLocation class so that it has a List of GameObject Items. 
 
@@ -117,7 +117,7 @@ Locations[2].Items.Add(new PortableHidingPlace("Backpack",1,new InventoryItem("P
 # IMPORTANT PROGRAM REQUIREMENT:
 Your map should have at least 5 locations. Each location should have travel options that move to another. You map should not just be a line - make it interesting. You should have at least 7 objects in your scene. At least one should be a game object that you cannot pick up that is a hiding place that has another game object you can pick up and place in your inventory (implements IHidingPlace but not IPortable). At least one should be a game object you can pick up that also is a hiding place that contains another game object (Implements IHidingPlace and IPortable). At least one should be an inventory item that is not a hiding place (Implements IPortable but not IHidingPlace).
 TravelWindow:  
-![Travel Window](travel-window-large.png)
+![Travel Window](./documentation/travel-window-large.png)
 
 Items on the form include:
 A Location Description TextBox that describes your current location.
