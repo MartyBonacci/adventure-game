@@ -24,7 +24,7 @@ You have just joined a company called Retro-Games R Us. RGRU tries to recapture 
 To help get you started you have been provided a starter file that already has capability to create a hard-coded map that the player can explore. The programmer that completed the work so far has left RGRU to become a community college instructor. If you have questions about their code maybe you can find their email address in the comments in the code…
 
 ## The following classes have been already created for you:
-![Map, MapLocation and Travel Option Classes](./documentation/map-location-travel-option-classes.png)
+![Map, MapLocation and Travel Option Classes](./documentation/map-location-tavel-option-classes.png)
 
 ## Existing MapLocation Class
 The MapLocation class has a Description property which describes the location setting this is what will be displayed in the Description TextBox. MapLocation also has a TravelOptions property which is a List of TravelOption objects. MapLocation also has a ToString() method that just returns the Description property. 
