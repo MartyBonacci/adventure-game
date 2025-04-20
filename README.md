@@ -25,6 +25,28 @@ To help get you started you have been provided a starter file that already has c
 
 ## The following classes have been already created for you:
 ![Map, MapLocation and Travel Option Classes](./documentation/map-location-tavel-option-classes.png)
+### Map Class
+- Properties
+	- Locations: List of MapLocation objects
+- Methods
+	- Map(): Constructor that initializes the map with locations and travel options.
+
+### MapLocation Class
+- Properties
+	- Description: String that describes the location.
+	- Items: List <GameObject>
+	- TravelOptions: List of TravelOption objects.
+- Methods
+	- MapLocation(string description): Constructor that initializes the description.
+	- ToString(): Returns the description of the location.
+
+### TravelOption Class
+- Properties
+	- Description: String that describes the travel option.
+	- Location: MapLocation object that the travel option leads to.
+- Methods
+	- TravelOption(string description, MapLocation location): Constructor that initializes the description and location.
+	- ToString(): Returns the description of the travel option.
 
 ## Existing MapLocation Class
 The MapLocation class has a Description property which describes the location setting this is what will be displayed in the Description TextBox. MapLocation also has a TravelOptions property which is a List of TravelOption objects. MapLocation also has a ToString() method that just returns the Description property. 
@@ -66,6 +88,46 @@ Your task is to add more capability to this game. Your dev admin asks you to imp
 
 ## You will write the following classes:
 ![Game Object, IPortable, InventoryItem, IHidingPlace, HidingPlace and PortableHidingPlace Classes](./documentation/more-classes.png)]
+### IHidingPlace Interface:
+- Proprerties
+	- HiddenObject: GameObject that is hidden in the hiding place.
+- Methods
+	- Search(): GameObject
+
+### GameObject Class
+- Properties
+	- Description: String that describes the object.
+- Methods
+	- GameObject() (+ 1 overloaded)
+	- ToString(): Returns the description of the object.
+
+### IPortable Interface
+- Properties
+	- Size: int that indicates the number of inventory slots taken by the item.
+
+### HidingPlace Class
+- Fields
+	- hiddenObject: GameObject that is hidden in the hiding place.
+- Properties
+	- HiddenObject: GameObject that is hidden in the hiding place.
+-Methods
+	- HidingPlace()
+	- Search(): GameObject
+
+### PortableHidingPlace Class
+- Fields
+	- item: GameObject
+- Properties
+	- HiddenObject: GameObject that is hidden in the hiding place.
+	- Size: int that indicates the number of inventory slots taken by the item.
+Methods
+	- Search(): GameObject
+
+### IPortable Interface
+- Properties
+	- Size: int that indicates the number of inventory slots taken by the item.
+- Methods
+	- InventoryItem()
 
 ### Game Object:
 This is the base class for all objects in the game. All items must have a Description. All items contained in a MapLocation’s items list or in the player inventory should be of this class or inherit from this class. Note that not all GameObjects can be taken into the user’s inventory.
@@ -88,6 +150,18 @@ This class inherits from GameObject and implements both IHidingPlace and IPortab
 ### Player:
 ![Player Class](./documentation/player-class.png)]
 The player class takes some of the functionality built into the existing form and moves it into a class. The player class has an Inventory property has a List of GameObjects. The class has a MaxInventory property. The sum of the sizes of the elements in inventory should never exceed this property. The player has a Location property which points to a MapLocation. 
+### Player Class:
+- Fields
+	- inventorySize: int
+- Properties
+	- Inventory: {get; set;}: List<IPortable>
+	- Location: {get; set;}: MapLocation
+	- MaxInventory: {get; set;}: int
+- Methods
+	- AddInventoryItem(IPortable item): bool
+	- Calc(): void
+	- Player(MapLocation location)
+	- RemoveInventoryItem(IPortable item): void
 
 The player’s constructor takes one parameter, a MapLocation which is used to set the player’s starting location. The constructor should set starting values for all remaining properties.
 
