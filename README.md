@@ -1,8 +1,70 @@
 # adventure-game
 CIS 1280 C# / .NET I 
-# Text-Based Adventure Game 
-# Objectives
+# Text-Based Adventure Game
+A text-based adventure game engine with object interaction, inventory management, and hidden item discovery.
 
+## Table of Contents
+1. [Game Overview](#game-overview)
+2. [Features](#features)
+3. [Game Interface](#game-interface)
+4. [How to Play](#how-to-play)
+5. [Technical Implementation](#technical-implementation)
+6. [Requirements](#requirements)
+
+## Game Overview
+This text-based adventure game allows players to explore different locations, interact with objects, and solve puzzles. The game features a dynamic object system with hidden items, inventory management, and multiple ways to interact with the game world.
+
+## Features
+- Explore interconnected locations
+- Interact with various objects
+- Manage inventory with size limitations
+- Discover hidden items in containers
+- Search objects for secret contents
+- Track game progress through status messages
+
+## Game Interface
+The game window is divided into five main sections:
+- **Location Description**: Shows your current location and surroundings
+- **Items List**: Displays objects available in your current location
+- **Travel Options**: Shows possible directions you can move
+- **Game Status**: Tracks your actions and discoveries
+- **Inventory**: Shows what you're currently carrying
+
+## How to Play
+1. Read the location description to understand your surroundings
+2. Use the interface to:
+   - Move between locations using travel options
+   - Take items from locations to add to inventory
+   - Drop items from inventory back to locations
+   - Search objects for hidden contents
+3. Manage your inventory carefully as space is limited
+
+## Technical Implementation
+The game uses object-oriented programming principles with:
+- Abstract base classes for game objects
+- Interfaces for portable and hiding place objects
+- Polymorphic methods for object interaction
+- Event-driven UI components
+
+## Requirements
+- .NET Framework
+- Windows Forms
+- Visual Studio for development
+
+## Getting Started
+1. Clone the repository
+2. Open the solution in Visual Studio
+3. Build and run the project
+4. Start exploring the game world
+
+## Contributing
+Contributions are welcome. Please submit pull requests with:
+- Clear commit messages
+- XML documentation for public members
+- Proper code formatting
+- Unit tests for new features
+
+=============================================================================================================================================================================
 
 5.1.	Explain and demonstrate how to declare and abstract classes and methods.
 5.3.	Explain and demonstrate how to build constructors in derived classes.
