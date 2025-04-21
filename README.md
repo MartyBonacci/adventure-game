@@ -21,7 +21,7 @@ Many others.
 	
 You have just joined a company called Retro-Games R Us. RGRU tries to recapture the magic of early computer games using newer technology. They have decided to create an engine for building text based adventure games reminiscent of games like Adventure and Zork. You are going to use object oriented principles to build this engine.
 
-To help get you started you have been provided a starter file that already has capability to create a hard-coded map that the player can explore. The programmer that completed the work so far has left RGRU to become a community college instructor. If you have questions about their code maybe you can find their email address in the comments in the code…
+To help get you started you have been provided a starter file that already has capability to create a hard-coded map that the player can explore. The programmer that completed the work so far has left RGRU to become a community college instructor. If you have questions about their code maybe you can find their email address in the comments in the codeâ€¦
 
 ## The following classes have been already created for you:
 ![Map, MapLocation and Travel Option Classes](./documentation/map-location-tavel-option-classes.png)
@@ -51,10 +51,10 @@ To help get you started you have been provided a starter file that already has c
 ## Existing MapLocation Class
 The MapLocation class has a Description property which describes the location setting this is what will be displayed in the Description TextBox. MapLocation also has a TravelOptions property which is a List of TravelOption objects. MapLocation also has a ToString() method that just returns the Description property. 
 
-The MapLocation’s class has a single parameter constructor that takes a string that will be used to initialize description.
+The MapLocationâ€™s class has a single parameter constructor that takes a string that will be used to initialize description.
 
 ## Existing TravelOption Class
-The TravelOption class has a Description property which describes where that travel option leads to. It also has a Location property that is the MapLocation object that that travel option leads to. Again, notice this is not an integer! This is an object reference to the actual MapLocation the travel option leads to. If this doesn’t make sense to you ask me to clarify when you get to that part of your code.
+The TravelOption class has a Description property which describes where that travel option leads to. It also has a Location property that is the MapLocation object that that travel option leads to. Again, notice this is not an integer! This is an object reference to the actual MapLocation the travel option leads to. If this doesnâ€™t make sense to you ask me to clarify when you get to that part of your code.
 
 The TravelOption class has a two parameter constructor that will take a string description and a MapLocation object.
 
@@ -73,7 +73,7 @@ Map[0].TravelOptions.Add(new TravelOption("A town is to the west of you.",Map[1]
 ```
 
 ## Existing TravelWindow
-The TravelWindow has a text box to show a description of the player’s location and a list box to show travel options. It instantiates a new Map object in the TravelWindow() constructor. It then displays the current player location and travel options. The ListBox’s MouseDoubleClick event changes the player location: the code changes the player’s location to the selected travel options MapLocation then just assigns the ListBox’s ItemsSource property to the new Player Location’s TravelOptions list.
+The TravelWindow has a text box to show a description of the playerâ€™s location and a list box to show travel options. It instantiates a new Map object in the TravelWindow() constructor. It then displays the current player location and travel options. The ListBoxâ€™s MouseDoubleClick event changes the player location: the code changes the playerâ€™s location to the selected travel options MapLocation then just assigns the ListBoxâ€™s ItemsSource property to the new Player Locationâ€™s TravelOptions list.
 ![Travel Window](./documentation/travel-window.png)
 
 ## New Code For You to Implement:
@@ -123,26 +123,26 @@ Your task is to add more capability to this game. Your dev admin asks you to imp
 Methods
 	- Search(): GameObject
 
-### IPortable Interface
+### InventoryItem Class
 - Properties
 	- Size: int that indicates the number of inventory slots taken by the item.
 - Methods
 	- InventoryItem()
 
 ### Game Object:
-This is the base class for all objects in the game. All items must have a Description. All items contained in a MapLocation’s items list or in the player inventory should be of this class or inherit from this class. Note that not all GameObjects can be taken into the user’s inventory.
+This is the base class for all objects in the game. All items must have a Description. All items contained in a MapLocationâ€™s items list or in the player inventory should be of this class or inherit from this class. Note that not all GameObjects can be taken into the userâ€™s inventory.
 
 ### IPortable Interface:
-The IPortable interface must be implemented by objects that can be taken into the player’s inventory. It requires the implementing class to have a Size property that consists of an int that indicates the number of inventory slots taken by the item.
+The IPortable interface must be implemented by objects that can be taken into the playerâ€™s inventory. It requires the implementing class to have a Size property that consists of an int that indicates the number of inventory slots taken by the item.
 
 ### InventoryItem:
-InventoryItem implements the IPortable interface and is basically used for generic items that can be taken into a player’s inventory. Things that might become InventoryItems could be things like pocket lint, backpack, broken rifle etc.
+InventoryItem implements the IPortable interface and is basically used for generic items that can be taken into a playerâ€™s inventory. Things that might become InventoryItems could be things like pocket lint, backpack, broken rifle etc.
 
 ### IHidingPlace: 
 Classes implementing IHidingPlace must have a HiddenObject property that contains a GameObject. They also must have a search method that yields the HiddenObject (either randomly or right away).
 
 ### HiddingPlace: 
-This class inherits from GameObject and implements IHidingPlace. HiddingPlace’s Search method just returns hiddenObject then sets hiddenObject to null.
+This class inherits from GameObject and implements IHidingPlace. HiddingPlaceâ€™s Search method just returns hiddenObject then sets hiddenObject to null.
 
 ### Portable Hiding Place:
 This class inherits from GameObject and implements both IHidingPlace and IPortable. 
@@ -163,7 +163,7 @@ The player class takes some of the functionality built into the existing form an
 	- Player(MapLocation location)
 	- RemoveInventoryItem(IPortable item): void
 
-The player’s constructor takes one parameter, a MapLocation which is used to set the player’s starting location. The constructor should set starting values for all remaining properties.
+The playerâ€™s constructor takes one parameter, a MapLocation which is used to set the playerâ€™s starting location. The constructor should set starting values for all remaining properties.
 
 ### Map, MapLocation and TravelOptions Classes:
 These classes are the same as the ones you created in the previous assignment, slightly modified.  
@@ -196,9 +196,9 @@ TravelWindow:
 Items on the form include:
 A Location Description TextBox that describes your current location.
 An Items ListBox that lists the items at that location you can take or search.
-A Travel Options ListBox displaying the travel options from that location.  Make this large enough so you won’t need two-way scroll bars to read the options.
+A Travel Options ListBox displaying the travel options from that location.  Make this large enough so you wonâ€™t need two-way scroll bars to read the options.
 A Game Status ListBox displaying Game Status messages.
-An Inventory ListBox displaying the items in the player’s Inventory.
+An Inventory ListBox displaying the items in the playerâ€™s Inventory.
 A search button which allows the player to search the item selected in the Items ListBox.
 A take button which allows the player to take the items selected in the Items ListBox and add them to their inventory.
 A drop button which allows the player to drop items from their inventory (they will then show up in the Items ListBox for the location.
