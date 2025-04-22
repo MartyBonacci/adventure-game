@@ -1,4 +1,9 @@
-﻿// InventoryItem.cs
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+// InventoryItem.cs
 /// <summary>
 /// Represents items that can be picked up and stored in inventory
 /// </summary>

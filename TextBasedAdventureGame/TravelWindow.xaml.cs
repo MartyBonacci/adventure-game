@@ -17,47 +17,95 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace TextBasedAdventureGame
 {
-    /// <summary>
-    /// Window that shows player where they are and provides capability to move from location to location in the map.
-    /// </summary>
     public partial class TravelWindow : Window
     {
-        /// <summary>
-        /// Game object that has map
-        /// </summary>
-        Map game;
+        private Map game;
+        private Player player;
 
-        /// <summary>
-        /// Initialize the form, the game and call display location to start the form.
-        /// </summary>
         public TravelWindow()
         {
             InitializeComponent();
             game = new Map();
+            player = new Player(game.Locations[0]);
             DisplayLocation();
         }
 
-        /// <summary>
-        /// Tells the player where they are.
-        /// </summary>
         private void DisplayLocation()
         {
-            txbLocationDescription.Text = game.PlayerLocation.Description;
-            lbTraveOptions.ItemsSource = game.PlayerLocation.TravelOptions;
+            txbLocationDescription.Text = player.Location.Description;
+            lbTravelOptions.ItemsSource = player.Location.TravelOptions;
+            lbItems.ItemsSource = player.Location.Items;
+            lbInventory.ItemsSource = player.Inventory;
         }
 
-        /// <summary>
-        /// Double click a travel option to move to a new location on the map.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void lbTraveOptions_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void lbTravelOptions_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            TravelOption to = (TravelOption)lbTraveOptions.SelectedItem;
-            game.PlayerLocation = to.Location;
+            TravelOption to = (TravelOption)lbTravelOptions.SelectedItem;
+            player.Location = to.Location;
             DisplayLocation();
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            if (lbItems.SelectedItem is IHidingPlace hidingPlace)
+            {
+                var foundObject = hidingPlace.Search();
+                if (foundObject != null)
+                {
+                    player.Location.Items.Add(foundObject);
+                    lbGameStatus.Items.Add($"You found: {foundObject.Description}");
+                    lbInventory.Items.Refresh();
+                    lbItems.Items.Refresh();
+                }
+                else
+                {
+                    lbGameStatus.Items.Add("Nothing was found.");
+                }
+                DisplayLocation();
+            }
+        }
+
+        private void btnTake_Click(object sender, RoutedEventArgs e)
+        {
+            if (lbItems.SelectedItem is IPortable portableItem)
+            {
+                if (player.PickUp(portableItem))
+                {
+                    player.Location.Items.Remove((GameObject)portableItem);
+                    lbGameStatus.Items.Add($"You took: {portableItem.ToString()}");
+                    lbInventory.Items.Refresh();
+                    lbItems.Items.Refresh();
+                }
+                else
+                {
+                    lbGameStatus.Items.Add("Not enough space in inventory.");
+                    lbGameStatus.Items.Refresh();
+                }
+                //DisplayLocation();
+            }
+            else if (lbItems.SelectedItem is GameObject gameObject)
+            {
+                lbGameStatus.Items.Add($"You cannot take {gameObject.ToString()}");
+            }
+
+        }
+
+        private void btnDrop_Click(object sender, RoutedEventArgs e)
+        {
+            if (lbInventory.SelectedItem is IPortable portableItem)
+            {
+                player.Drop(portableItem);
+                player.Location.Items.Add((GameObject)portableItem);
+                lbGameStatus.Items.Add($"You dropped: {portableItem.ToString()}");
+                lbInventory.Items.Refresh();
+                lbItems.Items.Refresh();
+                //DisplayLocation();
+            }
         }
     }
 }
+
+
