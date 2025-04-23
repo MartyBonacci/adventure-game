@@ -1,6 +1,6 @@
-﻿// TravelWindow
-// Programer: Rob Garner (rgarner7@cnm.edu)
-// Date: 25 May 2016
+﻿// Marty Bonaccci and Jamie Gavina
+// mbonacci@cnm.edu jgavina@cnm.edu
+// TravelWindow.xaml.cs
 // User interface that provides user capability to travel
 using System;
 using System.Collections.Generic;

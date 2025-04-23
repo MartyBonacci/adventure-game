@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Marty Bonaccci and Jamie Gavina
+// mbonacci@cnm.edu jgavina@cnm.edu
+// Player.cs
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -72,10 +76,12 @@ namespace TextBasedAdventureGame
             if (!(item is IPortable portable))
                 return false;
 
-            Calc();
-
-            _inventory.Add(item);
-            return true;
+            if (Calc() + item.Size <= MaxInventorySize)
+            {
+                Inventory.Add(item);
+                return true;
+            }
+            return false; // Not enough space in inventory.
         }
 
         /// <summary>

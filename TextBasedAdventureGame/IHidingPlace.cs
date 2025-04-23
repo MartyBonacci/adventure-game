@@ -1,9 +1,13 @@
-﻿using System;
+﻿// Marty Bonaccci and Jamie Gavina
+// mbonacci@cnm.edu jgavina@cnm.edu
+// IHidingPlace.cs
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// IHidingPlace.cs
+
 /// <summary>
 /// Interface for objects that can contain hidden items
 /// </summary>

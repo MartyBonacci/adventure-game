@@ -1,9 +1,13 @@
-﻿using System;
+﻿// Marty Bonaccci and Jamie Gavina
+// mbonacci@cnm.edu jgavina@cnm.edu
+// GameObject.cs
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// GameObject.cs
+
 /// <summary>
 /// Base class for all objects in the game world
 /// </summary>

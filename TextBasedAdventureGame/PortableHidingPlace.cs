@@ -1,9 +1,13 @@
-﻿using System;
+﻿// Marty Bonaccci and Jamie Gavina
+// mbonacci@cnm.edu jgavina@cnm.edu
+// PortableHidingPlace.cs
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// PortableHidingPlace.cs
+
 /// <summary>
 /// Represents portable containers that can hold items
 /// Implements both IPortable and IHidingPlace interfaces

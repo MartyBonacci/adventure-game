@@ -1,9 +1,13 @@
-﻿using System;
+﻿// Marty Bonaccci and Jamie Gavina
+// mbonacci@cnm.edu jgavina@cnm.edu
+// HidingPlace.cs
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// HidingPlace.cs
+
 /// <summary>
 /// Represents objects that can hide other items
 /// </summary>
