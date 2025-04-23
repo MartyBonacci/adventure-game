@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 public class HidingPlace : GameObject, IHidingPlace
 {
     #region Fields
-    private GameObject? _hiddenObject;
     #endregion
 
     #region Constructors
@@ -28,7 +27,7 @@ public class HidingPlace : GameObject, IHidingPlace
     /// <summary>
     /// Gets the currently hidden object
     /// </summary>
-    public GameObject HiddenObject => _hiddenObject;
+    public GameObject HiddenObject { get; private set; }
 
     /// <summary>
     /// Searches for and returns any hidden object
@@ -36,8 +35,8 @@ public class HidingPlace : GameObject, IHidingPlace
     /// <returns>The hidden object, or null if none found</returns>
     public GameObject Search()
     {
-        var foundObject = _hiddenObject;
-        _hiddenObject = null;
+        var foundObject = HiddenObject;
+        HiddenObject = null;
         return foundObject!;
     }
 
@@ -47,7 +46,7 @@ public class HidingPlace : GameObject, IHidingPlace
     /// <param name="obj">Object to hide</param>
     public void HideObject(GameObject obj)
     {
-        _hiddenObject = obj;
+        HiddenObject = obj;
     }
     #endregion
 }

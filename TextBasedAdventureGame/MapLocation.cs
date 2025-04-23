@@ -25,6 +25,11 @@ namespace TextBasedAdventureGame
         /// </summary>
         public List<TravelOption> TravelOptions { get; set; }
 
+        /// <summary
+        /// List of items that can be found at this location.
+        /// </summary>
+        public List<GameObject> Items { get; set; }
+
         /// <summary>
         /// Single parameter constructor for game location.
         /// </summary>
@@ -33,6 +38,7 @@ namespace TextBasedAdventureGame
         {
             Description = description;
             TravelOptions = new List<TravelOption>();
+            Items = new List<GameObject>();
         }
 
         public override string ToString()

@@ -39,3 +39,17 @@ C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame
 C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.g.resources
 C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.Properties.Resources.resources
 C:\Users\rob82_000\Dropbox\CNM\2017Spring\CIS1280\Specs\P8TextBasedAdventureGame\TextBasedAdventureGame\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.csproj.GenerateResource.Cache
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.exe.config
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.exe
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\bin\Debug\TextBasedAdventureGame.pdb
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.csproj.AssemblyReference.cache
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TravelWindow.baml
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TravelWindow.g.cs
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\App.g.cs
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame_MarkupCompile.cache
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.g.resources
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.Properties.Resources.resources
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.csproj.GenerateResource.cache
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.csproj.CoreCompileInputs.cache
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.exe
+C:\Users\STEMulus\Documents\code-projects\adventure-game\TextBasedAdventureGame\obj\Debug\TextBasedAdventureGame.pdb

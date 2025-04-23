@@ -12,7 +12,6 @@ public class PortableHidingPlace : GameObject, IPortable, IHidingPlace
 {
     #region Fields
     private readonly int _size;
-    private GameObject? _hiddenObject;
     #endregion
 
     #region Constructors
@@ -26,7 +25,7 @@ public class PortableHidingPlace : GameObject, IPortable, IHidingPlace
         : base(description)
     {
         _size = size;
-        _hiddenObject = initialContents;
+        HiddenObject = initialContents;
     }
     #endregion
 
@@ -41,7 +40,7 @@ public class PortableHidingPlace : GameObject, IPortable, IHidingPlace
     /// <summary>
     /// Gets the currently hidden object
     /// </summary>
-    public GameObject HiddenObject => _hiddenObject;
+    public GameObject HiddenObject { get; private set; }
 
     /// <summary>
     /// Searches for and returns any hidden object
@@ -49,8 +48,8 @@ public class PortableHidingPlace : GameObject, IPortable, IHidingPlace
     /// <returns>The hidden object, or null if none found</returns>
     public GameObject Search()
     {
-        var foundObject = _hiddenObject;
-        _hiddenObject = null;
+        var foundObject = HiddenObject;
+        HiddenObject = null;
         return foundObject!;
     }
     #endregion

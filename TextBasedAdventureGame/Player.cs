@@ -40,7 +40,7 @@ namespace TextBasedAdventureGame
         /// <summary>
         /// Gets the player's inventory
         /// </summary>
-        public IReadOnlyList<GameObject> Inventory => (IReadOnlyList<GameObject>)_inventory.AsReadOnly();
+        public List<IPortable> Inventory => (List<IPortable>) _inventory;
 
         /// <summary>
         /// Gets the maximum total size of items the player can carry
@@ -106,7 +106,7 @@ namespace TextBasedAdventureGame
         /// </summary>
         /// <param name="container">Container to search</param>
         /// <returns>Any hidden items found, or null if none</returns>
-        public GameObject? Search(GameObject container)
+        public GameObject Search(GameObject container)
         {
             if (!(container is IHidingPlace hidingPlace))
                 return null;
