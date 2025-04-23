@@ -17,9 +17,10 @@ public class HidingPlace : GameObject, IHidingPlace
     /// Constructor for HidingPlace
     /// </summary>
     /// <param name="description">Description of the hiding place</param>
-    public HidingPlace(string description)
+    public HidingPlace(string description, GameObject hiddenObject)
         : base(description)
     {
+        HiddenObject = hiddenObject;
     }
     #endregion
 
